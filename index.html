@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Car | by Cao Anh</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet"  type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Begin Header -->
+        <header class="header">
+            <div class="header-top-wrapper">
+                <div class="grid wide custom-grid">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="header-top-wrap">
+                                <div class="header-top-left">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-regular fa-envelope icon-email"></i>
+                                            <a href="#" class="support-email">nguyencongthanh@support.com</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa-regular fa-clock icon-clock"></i>
+                                            10:00 AM To 5:00 PM
+                                        </li> 
+                                    </ul>
+                                </div>
+                                <div class="header-top-right">
+                                    <ul>
+                                        <li class="header-top-social">
+                                            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                                            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                                            <a href="#"><i class="fa-brands fa-vimeo-square"></i></a>
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="header-top-login">
+                                            <a href="#" id="login-top">
+                                                <i class="fa-regular fa-circle-user icon-user"></i>
+                                                Login
+                                            </a>
+                                            <a href="#" id="register-top">
+                                                Register
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- stick-menu -->
+            <div class="header-main-wrap">
+                <div class="header-container-wrap">
+                    <div class="grid wide custom-grid">
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <div>
+                                    <div class="header-container">
+                                        <div class="logo">
+                                            <a href="index.html" class="logo__link logo-one">
+                                                <img src="./assets/img/logo/logo.png" alt="logo">
+                                            </a>
+                                            <a href="index.html" class="logo__link logo-two">
+                                                <img src="./assets/img/logo/b_logo.png" alt="logo">
+                                            </a>
+                                        </div>
+                                        <div class="navbar-wrap">
+                                            <ul class="navbar-wrap-list">
+                                                <li class="navbar-wrap-item active">
+                                                    <a href="#">Home</a>
+                                                </li>
+                                                <li class="navbar-wrap-item inventory-hv">
+                                                    <a href="#">Inventory</a>
+                                                    <ul class="navbar-wrap-list-child">
+                                                        <li>
+                                                            <a href="#">Inventory List</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Inventory Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="navbar-wrap-item pages-hv">
+                                                    <a href="#">Pages</a>
+                                                    <ul class="navbar-wrap-list-child">
+                                                        <li>
+                                                            <a href="#">About us</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Loan Calculator</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Login Page</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="navbar-wrap-item blog-hv">
+                                                    <a href="#">Blog</a>
+                                                    <ul class="navbar-wrap-list-child ">
+                                                        <li>
+                                                            <a href="#">Our Blog</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Blog Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="navbar-wrap-item">
+                                                    <a href="#">Dealers</a>
+                                                </li>
+                                                <li class="navbar-wrap-item">
+                                                    <a href="#">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="header-action">
+                                            <ul>
+                                                <li class="header-cart">
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-basket-shopping"></i>
+                                                        <span>4</span>
+                                                    </a>
+                                                    <!-- have items-->
+                                                    <div class="cart-wrap">                               
+                                                        <ul class="mini-cart">
+                                                            <li class="mini-cart-item">
+                                                                <a href="#"><img src="./assets/img/product/cart_p01.jpg" alt="img"></a>
+                                                                <div class="cart-item-content">
+                                                                    <h4 class="cart-item__heading"><a href="#">Volvo S60 Cross Country</a></h4>
+                                                                    <div class="cart-item-price">
+                                                                        <span class="item-price__new">$299.9</span>
+                                                                        <span class="item-price__old">$320.9</span>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#">
+                                                                    <i class="fa-regular fa-trash-can icon-trash"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="mini-cart-item"> 
+                                                                <a href="#"><img src="./assets/img/product/cart_p02.jpg" alt="img"></a>
+                                                                <div class="cart-item-content">
+                                                                    <h4 class="cart-item__heading"><a href="#">Mercedes-Benz GLE Coupe</a></h4>
+                                                                    <div class="cart-item-price">
+                                                                        <span class="item-price__new">$299.9</span>
+                                                                        <span class="item-price__old">$320.9</span>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#">
+                                                                    <i class="fa-regular fa-trash-can icon-trash"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="mini-cart-item"> 
+                                                                <a href="#"><img src="./assets/img/product/cart_p02.jpg" alt="img"></a>
+                                                                <div class="cart-item-content">
+                                                                    <h4 class="cart-item__heading"><a href="#">Mercedes-Benz GLE Coupe</a></h4>
+                                                                    <div class="cart-item-price">
+                                                                        <span class="item-price__new">$299.9</span>
+                                                                        <span class="item-price__old">$320.9</span>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#">
+                                                                    <i class="fa-regular fa-trash-can icon-trash"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="mini-cart-item"> 
+                                                                <a href="#"><img src="./assets/img/product/cart_p02.jpg" alt="img"></a>
+                                                                <div class="cart-item-content">
+                                                                    <h4 class="cart-item__heading"><a href="#">Mercedes-Benz GLE Coupe </a></h4>
+                                                                    <div class="cart-item-price">
+                                                                        <span class="item-price__new">$299.9</span>
+                                                                        <span class="item-price__old">$320.9</span>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#">
+                                                                    <i class="fa-regular fa-trash-can icon-trash"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="total-price">
+                                                            <span>Total:</span>
+                                                            <span>$1000</span>
+                                                        </div>
+                                                        <div class="checkout-link">
+                                                            <a href="#" class="btn btn-shopping">Shopping cart</a>
+                                                            <a href="#" class="btn btn-checkout">Check out</a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- no item -->
+                                                    <div class="cart-wrap-no__item">
+                                                        <img src="https://bizweb.dktcdn.net/100/416/931/themes/806831/assets/empty-cart.png?1616484068897
+                                                        " alt="list-cart" class="header-cart-list__img">
+                                                        <span class="header-cart-list_msg">Không có sản phẩm</span>
+                                                    </div>
+                                                </li>
+                                                <li class="header-quote">
+                                                    <a href="#" class="btn btn__quote">Get a quote</a>
+                                                </li>
+                                                <li class="btn-search">
+                                                        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                                                </li>
+                                                <div class="btn-list">
+                                                    <a href="#">
+                                                        <i class="fa-solid fa-bars"></i>
+                                                    </a>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+               
+               <!-- stick-search -->
+               <div class="header-search-body ">
+                    <div class="search-body">
+                        <form action="#">
+                            <input type="text" name="search" id="search" placeholder="Type here..." class="input-search">
+                            <button type="submit" class="btn-search-cart">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+               </div>
+                <!-- Side bar mobile -->
+                <div class="side-bar-wrapper">
+                    <div class="overlay__mobile"></div>
+                    <div class="side-bar">
+                        <div class="btn-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="side-bar-logo">
+                            <a href="index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <div class="side-bar-nav">
+                            <ul class="nav-wrapper">
+                                <li class="nav-wrapper__item"><a href="#">Home</a></li>
+                                <li class="nav-wrapper__item">
+                                    <a href="#">INVENTORY</a>
+                                    <ul class="nav-list-child">
+                                        <li><a href="#">Inventory List</a></li>
+                                        <li><a href="#">Inventory Details</a></li>
+                                    </ul>
+                                    <div class="drop-down">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </li>
+                                <li class="nav-wrapper__item">
+                                    <a href="#">Pages</a>
+                                    <ul class="nav-list-child">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Loan Calculator</a></li>
+                                        <li><a href="#">Login Page</a></li>
+                                    </ul>
+                                    <div class="drop-down">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </li>
+                                <li class="nav-wrapper__item">
+                                    <a href="#">Blog</a>
+                                    <ul class="nav-list-child">
+                                        <li><a href="#">our Blog</a></li>
+                                        <li><a href="#">Blog Details</a></li>
+                                    </ul>
+                                    <div class="drop-down">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </li>
+                                <li class="nav-wrapper__item"><a href="#">Dealers</a></li>
+                                <li class="nav-wrapper__item"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Side bar mobile-end -->
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Begin Main -->
+        <main class="main">
+            <!-- slider-area -->
+            <div class="main-slider" style="background-image: url(./assets/img/slider/banner_bg02.jpg);">
+                <!-- banner-area-->
+                <div class="grid ">
+                    <div class="row">
+                        <div class="col l-12">
+                            <div class="main-content-show">
+                                <img src="./assets/img/slider/slider_content_icon.png" alt="img">
+                                <div class="fact-area-title">
+                                    YOUR TRUST OUR ASSET
+                                    <span class="left"></span>
+                                    <span class="right"></span>
+                                </div>
+                                <h2>
+                                    FIND PERFECT CAR
+                                </h2>
+                                <p>A car dealership, or vehicle local distribution, is a business</p>
+                                <a href="#" class="btn btn-find">FIND IT NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-car-search-wrap">
+                    <div class="banner-car-container">
+                        <div class="grid wide">
+                            <div class="row mr-3">
+                                <div class="col m-4 c-12 l-2-4">
+                                    <div class="form-select">
+                                        <span>Select Model</span>
+                                        <ul class="form-select-list">
+                                            <li class="select-car-item active">Select Model</li>
+                                            <li class="select-car-item">Mercedes-Benz</li>
+                                            <li class="select-car-item">Volkswagen</li>
+                                            <li class="select-car-item">Aston-Martin</li>
+                                            <li class="select-car-item">Lamborghini</li>
+                                            <li class="select-car-item">Koenigsegg</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col m-4 c-12 l-2-4">
+                                    <div class="form-select">
+                                        <span>Select Model</span>
+                                        <ul class="form-select-list">
+                                            <li class="select-car-item active">Select Model</li>
+                                            <li class="select-car-item">Volkswagen SC20</li>
+                                            <li class="select-car-item">Honda CBR9</li>
+                                            <li class="select-car-item">Aston K35l8</li>
+                                            <li class="select-car-item">BMW SC20</li>
+                                            <li class="select-car-item">Toyota T86LM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col m-4 c-12 l-2-4">
+                                    <div class="form-select">
+                                        <span>Select Model</span>
+                                        <ul class="form-select-list">
+                                            <li class="select-car-item active">Select Model</li>
+                                            <li class="select-car-item">SORN Status</li>
+                                            <li class="select-car-item">Fuel Type</li>
+                                            <li class="select-car-item">Last Log Book</li>
+                                            <li class="select-car-item">MOT Expires</li>
+                                            <li class="select-car-item">Vehicle TAX</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col m-4 c-12 l-2-4">
+                                    <div class="form-select">
+                                        <span>Select Model</span>
+                                        <ul class="form-select-list">
+                                            <li class="select-car-item active">Select Model</li>
+                                            <li class="select-car-item">BMW 7 Series</li>
+                                            <li class="select-car-item">Mercedes-Benz</li>
+                                            <li class="select-car-item">Volkswagen</li>
+                                            <li class="select-car-item">Aston-Martin</li>
+                                            <li class="select-car-item">Lamborghini</li>
+                                            <li class="select-car-item">Koenigsegg</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col m-4 c-12 l-2-4">
+                                    <a href="#" class="btn btn-vehicle">SELECT VEHICLE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- banner-area-end -->
+           </div>
+            <!-- slider-area-end -->
+           <!-- features-area -->
+           <div class="features-area pt-120 pb-90">
+                <div class="grid wide">
+                    <div class="row large-gutter  mr-3">
+                        <div class="col l-3 m-6 c-12 custom-c-12">
+                            <div class="features-item">
+                                <div class="features-icon mb-25">
+                                    <img src="./assets/img/icon/h3_features_icon01.png" alt="icon">
+                                </div>
+                                <div class="features-content">
+                                    <h5>Dealership Points</h5>
+                                    <p>Placlder text commonly is used detrate theys visual consectetur ading elitmod use</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12 custom-c-12">
+                            <div class="features-item">
+                                <div class="features-icon mb-25">
+                                    <img src="./assets/img/icon/h3_features_icon02.png" alt="icon">
+                                </div>
+                                <div class="features-content">
+                                    <h5>Trusted by clients</h5>
+                                    <p>Placlder text commonly is used detrate theys visual consectetur ading elitmod use</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12 custom-c-12">
+                            <div class="features-item">
+                                <div class="features-icon mb-25">
+                                    <img src="./assets/img/icon/h3_features_icon03.png" alt="icon">
+                                </div>
+                                <div class="features-content">
+                                    <h5>We are your location</h5>
+                                    <p>Placlder text commonly is used detrate theys visual consectetur ading elitmod use</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12 custom-c-12">
+                            <div class="features-item">
+                                <div class="features-icon mb-25">
+                                    <img src="./assets/img/icon/h3_features_icon04.png" alt="icon">
+                                </div>
+                                <div class="features-content">
+                                    <h5>Easy Financing</h5>
+                                    <p>Placlder text commonly is used detrate theys visual consectetur ading elitmod use</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- features-area-end -->
+            <!-- latest-cars-area -->
+            <div class="latest-cars-area pb-120 pt-120">
+                <div class="grid wide">
+                    <div class="latest-cars-control">
+                        <div class="row large-gutter ">
+                            <div class="col l-12 m-12 c-12">
+                                <div class="section-title mb-35">
+                                    <div class="overlay-title">All Seller</div>
+                                    <span>OUR FEATURED CARS</span>
+                                    <h2>Latest Released Cars</h2>
+                                </div>
+                                <div class="latest-cars-menu">
+                                    <button href="#" class="btn btn-cars-menu active" data-type="all">All Seller</button>
+                                    <button href="#" class="btn btn-cars-menu" data-type="new-car">New cars</button>
+                                    <button href="#" class="btn btn-cars-menu" data-type="used-car">Used cars</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>              
+                    <div class="latest-cars-wrapper">
+                        <div class="row large-gutter mr-3 ">
+
+                        </div>
+                    </div>
+                    <div class="latest-cars-btn">
+                        <div class="row">
+                            <div class="col col-12">
+                                <a href="" class="btn bnt-show-all">Show all Cars</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- latest-cars-area-end -->
+            <!-- about-area -->
+            <div style="background-image: url('./assets/img/bg/about_bg.jpg');" class="about-area ">
+                <div class="about-container pt-120 pb-120">
+                    <div class="grid wide">
+                        <div class="row large-gutter mr-3">
+                            <div class="col l-3 m-6 c-12 custom-c-12">
+                                <div class="about-text">
+                                    <!-- <h2>49<span>+</span></h2> -->
+                                </div>
+                                <div class="about-img">
+                                    <img src="./assets/img/images/about_img01.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12  custom-c-12">
+                                <div class="about-img">
+                                    <img src="./assets/img/images/about_img02.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col l-6 m-12 c-12  custom-c-12">
+                                <div class="about-content-wrapper">
+                                    <div class="about-heading mb-40">
+                                        <p>ABOUT OUR COMPANY</p>
+                                        <h2>More For Trade-In Could Increase Car Here<span>.</span></h2>
+                                    </div>
+                                    <div class="about-desc mb-40">
+                                        <img src="./assets/img/images/m.png" alt="img" class="about-desc__img">
+                                        <p>Lorem ipsum, or lipsum as it is sometimes known dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown.</p>
+                                    </div>
+                                    <div class="about-list mb-40">
+                                        <ul>
+                                            <li class="about-item">
+                                                <i class="fa-solid fa-check"></i>
+                                                Sometimes known dummy
+                                            </li>
+                                            <li class="about-item">
+                                                <i class="fa-solid fa-check"></i>
+                                                Best solution for developing your business
+                                            </li>
+                                            <li class="about-item">
+                                                <i class="fa-solid fa-check"></i>
+                                                Deserunt ad ipsum sint excepteur
+                                            </li>
+                                            <li class="about-item">
+                                                <i class="fa-solid fa-check"></i>
+                                                Lorem sit occaecat ea proident excepteur
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-learn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- about-area-end -->
+            <!-- exclusive car featured -->
+            <div class="exclusive-car-area pb-120 pt-120">
+                <div class="grid wide">
+                    <div class="latest-cars-control">
+                        <div class="row large-gutter ">
+                            <div class="col l-12 m-12 c-12">
+                                <div class="section-title mb-35">
+                                    <div class="overlay-title">Our Services</div>
+                                    <span>OUR SERVICE CARS</span>
+                                    <h2>Exclusive Car Featured</h2>
+                                    <img src="./assets/img/images/title_line.png" alt="" class="img-line">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="exclusive-car-content">
+                        <div class="row large-gutter mr-3">
+                            <div class="col l-3 m-6 c-12 custom-c-12">
+                                <div class="exclusive-car-item mr--30 mb-35 text-right ">
+                                    <div class="exclusive-car__img-right ">
+                                        <img src="./assets/img/flaticon/car-parts.png" alt="img">
+                                    </div>
+                                    <h5>SUPER FAST CAR </h5>
+                                    <p>
+                                        Placlder text commonly used detrate theyjlos visual form amet, consectetur ading elitmod tempor used
+                                    </p>
+                                </div>
+                                <div class="exclusive-car-item mr--30 text-right ">
+                                    <div class="exclusive-car__img-right">
+                                        <img src="./assets/img/flaticon/piston.png" alt="img">
+                                    </div>
+                                    <h5>DEALERSHIP POINTS</h5>
+                                    <p>
+                                        Placlder text commonly used detrate theyjlos visual form amet, consectetur ading elitmod tempor used
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col l-6 d-none">
+                                <div class="exclusive-car-featured__img">
+                                    <img src="./assets/img/images/exc_featured_img.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12 custom-c-12">
+                                <div class="exclusive-car-item ml--30 mb-35  ">
+                                    <div class="exclusive-car__img ">
+                                        <img src="./assets/img/flaticon/fan.png " alt="img">
+                                    </div>
+                                    <h5>SUPER FAST CAR </h5>
+                                    <p>
+                                        Placlder text commonly used detrate theyjlos visual form amet, consectetur ading elitmod tempor used
+                                    </p>
+                                </div>
+                                <div class="exclusive-car-item ml--30 ">
+                                    <div class="exclusive-car__img">
+                                        <img src="./assets/img/flaticon/jerrycan.png" alt="img">
+                                    </div>
+                                    <h5>DEALERSHIP POINTS</h5>
+                                    <p>
+                                        Placlder text commonly used detrate theyjlos visual form amet, consectetur ading elitmod tempor used
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+            </div>          
+            <!-- exclusive car featured-end -->
+            <!-- fact-area -->
+            <div class="fact-area" style="background-image: url(./assets/img/bg/fact_bg.jpg);">
+                <div class="fact-area-title-wrap">
+                    <div class="fact-area-title">
+                        FIND YOUR PERFECT CAR
+                        <span class="left"></span>
+                        <span class="right"></span>
+                    </div>
+                </div>
+                <div class="fact-container">
+                    <div class="grid wide">
+                        <div class="row large-gutter mr-3">
+                            <div class="col l-3 m-6 c-12 custom-c-12">
+                                <div class="fact-item">
+                                    <div class="fact-img">
+                                        <img src="./assets/img/flaticon/car.png" alt="img">
+                                    </div>
+                                    <div class="fact-content">
+                                        <h3>
+                                            <span  class="counter">2900</span>
+                                            <span>+</span>
+                                        </h3>
+                                        <p>NEW CARS IN STOCK</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12 custom-c-12">
+                                <div class="fact-item">
+                                    <div class="fact-img">
+                                        <img src="./assets/img/flaticon/settings car.png" alt="img">
+                                    </div>
+                                    <div class="fact-content">
+                                        <h3>
+                                            <span class="counter">
+                                                3400
+                                            </span>
+                                            <span>+</span>
+                                        </h3>
+                                        <p>USED CARS IN STOCK</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12 custom-c-12">
+                                <div class="fact-item">
+                                    <div class="fact-img">
+                                        <img src="./assets/img/flaticon/settings.png" alt="img">
+                                    </div>
+                                    <div class="fact-content">
+                                        <h3>
+                                            <span class="counter">
+                                                1200
+                                            </span>
+                                            <span>+</span>
+                                        </h3>
+                                        <p>SERVICE CENTERS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12 custom-c-12">
+                                <div class="fact-item">
+                                    <div class="fact-img">
+                                        <img src="./assets/img/flaticon/rocket.png" alt="img">
+                                    </div>
+                                    <div class="fact-content">
+                                        <h3>
+                                            <span class="counter">
+                                                34
+                                            </span>
+                                            <span>K</span>
+                                        </h3>
+                                        <p>HAPPY CLIENTS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fact-area-end -->
+            <!-- blog-area -->
+            <div class="blog-area pd-120 pt-120">
+                <div class="grid wide">
+                    <div class="latest-cars-control">
+                        <div class="row large-gutter">
+                            <div class="col l-12 m-12 c-12">
+                                <div class="section-title mb-35">
+                                    <div class="overlay-title">Latest Blog</div>
+                                    <span>LATEST NEWS & BLOG</span>
+                                    <h2>Update News & Articles</h2>
+                                    <img src="./assets/img/images/title_line.png" alt="" class="img-line">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row large-gutter mr-3">
+                        <div class="col l-4 m-6 c-12 custom-c-12">
+                            <div class="blog-item mb-50-mb-tl">
+                                <div class="blog-item__img">
+                                    <a href="#">
+                                        <img src="./assets/img/blog/blog_post_thumb01.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="blog-item-content">
+                                    <a href="#">Creative Design</a>
+                                    <h3>
+                                        <a href="#">Car dealership, or vehicle local distribution</a>
+                                    </h3>
+                                </div>
+                                <div class="blog-item-bottom">
+                                    <ul>
+                                        <li class="blog-item__name">
+                                            <i class="fa-regular fa-user"></i>
+                                            <a href="#">Jon Deo</a>
+                                        </li>
+                                        <li class="blog-item__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <a href="#">Mar 10, 2024</a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-details">
+                                        <i class="fa-solid fa-angles-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12 custom-c-12">
+                            <div class="blog-item mb-50-mb-tl">
+                                <div class="blog-item__img">
+                                    <a href="#">
+                                        <img src="./assets/img/blog/blog_post_thumb02.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="blog-item-content">
+                                    <a href="#">Creative Design</a>
+                                    <h3>
+                                        <a href="#">Based dealership contract with an automaker</a>
+                                    </h3>
+                                </div>
+                                <div class="blog-item-bottom">
+                                    <ul>
+                                        <li class="blog-item__name">
+                                            <i class="fa-regular fa-user"></i>
+                                            <a href="#">Jon Deo</a>
+                                        </li>
+                                        <li class="blog-item__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <a href="#">Mar 10, 2024</a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-details">
+                                        <i class="fa-solid fa-angles-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12 custom-c-12">
+                            <div class="blog-item">
+                                <div class="blog-item__img">
+                                    <a href="#">
+                                        <img src="./assets/img/blog/blog_post_thumb03.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="blog-item-content">
+                                    <a href="#">Creative Design</a>
+                                    <h3>
+                                        <a href="#">Employ automobile sales their vehicles</a>
+                                    </h3>
+                                </div>
+                                <div class="blog-item-bottom">
+                                    <ul>
+                                        <li class="blog-item__name">
+                                            <i class="fa-regular fa-user"></i>
+                                            <a href="#">Jon Deo</a>
+                                        </li>
+                                        <li class="blog-item__time">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                            <a href="#">Mar 10, 2024</a>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-details">
+                                        <i class="fa-solid fa-angles-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <!-- blog-area-end -->
+        </main>
+        <!-- End Main -->
+        <!-- Begin Footer -->
+        <footer class="footer">
+            <div class="footer-top-wrap">
+                <div class="footer-top ">
+                    <div class="grid wide">
+                        <div class="row large-gutter mr-3">
+                            <div class="col l-4 m-6 c-12">
+                                <div class="footer-logo">
+                                    <a href="#" class="btn">
+                                    <img src="./assets/img/logo/w_logo.png" alt="logo">
+                                    </a>
+                               </div>
+                            </div>
+                            <div class="col l-8 m-6 c-12">
+                                <div class="footer-slider"> 
+                                    <div class="footer-slider-item">
+                                        <div class="slider-img">
+                                            <a href="#">
+                                                <img src="./assets/img/brand/footer_brand01.png" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="footer-slider-item">
+                                        <div class="slider-img">
+                                            <a href="#">
+                                                <img src="./assets/img/brand/footer_brand02.png" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="footer-slider-item">
+                                        <div class="slider-img">
+                                            <a href="#">
+                                                <img src="./assets/img/brand/footer_brand03.png" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="footer-slider-item">
+                                        <div class="slider-img">
+                                            <a href="#">
+                                                <img src="./assets/img/brand/footer_brand04.png" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="footer-slider-item">
+                                        <div class="slider-img">
+                                            <a href="#">
+                                                <img src="./assets/img/brand/footer_brand02.png" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- <div class="image-slider">
+                                    <div class="image-item">
+                                      <div class="image">
+                                        <img
+                                          src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+                                          alt=""
+                                        />
+                                      </div>
+                                      <h3 class="image-title">This is demo title</h3>
+                                    </div>
+                                    <div class="image-item">
+                                      <div class="image">
+                                        <img
+                                          src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=710&q=80"
+                                          alt=""
+                                        />
+                                      </div>
+                                      <h3 class="image-title">This is demo title</h3>
+                                    </div>
+                                    <div class="image-item">
+                                      <div class="image">
+                                        <img
+                                          src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"
+                                          alt=""
+                                        />
+                                      </div>
+                                      <h3 class="image-title">This is demo title</h3>
+                                    </div>
+                                    <div class="image-item">
+                                      <div class="image">
+                                        <img
+                                          src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+                                          alt=""
+                                        />
+                                      </div>
+                                      <h3 class="image-title">This is demo title</h3>
+                                    </div>
+                                    <div class="image-item">
+                                      <div class="image">
+                                        <img
+                                          src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80"
+                                          alt=""
+                                        />
+                                      </div>
+                                      <h3 class="image-title">This is demo title</h3>
+                                    </div>
+                                  </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-main-wrap" style="background-image: url(./assets/img/bg/footer_bg.jpg);">
+                <div class="footer-main">
+                    <div class="grid wide">
+                        <div class="row large-gutter mr-3">
+                            <div class="col l-4 m-6 c-12">
+                                <div class="footer-main__left">
+                                    <div class="footer-main__heading">
+                                        <h4>Contact Us</h4>
+                                        <p>There are many variations of passaes of orem ipsum available, but the majority have in some form, by ipsum
+                                        </p>
+                                    </div>
+                                    <div class="footer-main__contact">
+                                        <ul>
+                                            <li class="footer-contact-item">
+                                                <a href="#" class="btn btn-contact btn--phone">
+                                                    <i class="fa-solid fa-phone-flip"></i>
+                                                </a>
+                                                <div class="contact-item__content">
+                                                    <p>PHONE NUMBER</p>
+                                                    <a href="#">
+                                                        <p>+01 (845) 965 785</p>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="footer-contact-item">
+                                                <a href="#" class="btn btn-contact btn--email">
+                                                    <i class="fa-solid fa-envelope"></i>
+                                                </a>
+                                                <div class="contact-item__content">
+                                                    <p>EMAIL ADDRESS</p>
+                                                    <a href="#">
+                                                        <p>nguyencongthanh@support.com</p>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="footer-contact-item">
+                                                <a href="#" class="btn btn-contact btn--location">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                </a>
+                                                <div class="contact-item__content">
+                                                    <p>ADDRESS</p>
+                                                    <span>East 40th Street New York, NY, USA</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-8 m-12 c-12 ">
+                               <div class="footer-main__right">
+                                    <div class="row large-gutter">
+                                        <div class="col l-3 m-3 c-12">
+                                            <div class="main-right__title">
+                                                <h4>Our Info</h4>
+                                            </div>
+                                            <ul class="main-right__list">
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Our Service</a></li>
+                                                <li><a href="#">Our Shop</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col l-3 m-3 c-12 ">
+                                            <div class="main-right__title">
+                                                <h4>Quick Link</h4>
+                                            </div>
+                                            <ul class="main-right__list">
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Our Service</a></li>
+                                                <li><a href="#">Our Shop</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col l-5 m-6 c-12">
+                                            <div class="main-right__title">
+                                                <h4>Subscribe Us</h4>
+                                            </div>
+                                            <div class="main-right__input">
+                                                <form action="#">
+                                                    <input type="text" placeholder="Your mail...">
+                                                    <button class="btn btn-submit">
+                                                        <i class="fa-solid fa-angles-right"></i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                            <div class="main-right__social-media">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com/ncthanh06082003/" class="btn icon--facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="btn icon--twitter"><i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="btn icon--pinter"><i class="fa-brands fa-pinterest-p"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="btn icon--linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row large-gutter">
+                                        <div class="col l-12 m-12 c-12">
+                                            <div class="payment">
+                                                <div class="payment__title">
+                                                    <p>We know that honesty and transparency friendly customer service</p>
+                                                </div>
+                                                <div class="payment__img">
+                                                    <img src="./assets/img/images/payment_card.png" alt="img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="grid wide">
+                        <div class="row large-gutter mr-3">
+                            <div class="col l-8 m-8 c-12">
+                                <div class="footer-copyright">
+                                    <p>Copyright © 2024. All rights reserved. by Business-theme</p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <button class="btn btn-scroll-top">
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+        <!-- End Footer -->
+        <!-- Modal login/register -->
+        <div class="modal-wrapper">
+            <div class="modal__overlay"></div>
+            <div class="modal-body">
+                <div class="form">
+                    <ul>
+                        <li class="line line-login"><h3 class="heading heading-login">Login</h3>
+                        </li>
+                        <li class="line line-register"><h3 class="heading heading-register">Register</h3>
+                        </li>
+                        
+                    </ul>
+                    <div class="btn-close-login">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="spacer"></div>
+                    <form action="#" method="POST"  id="login">
+                        <!-- Login -->
+                        <div class="login-form login-tab">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email <span>*</span></label>
+                                <input id="email-login" name="email" type="text" placeholder="congthanh@gmail.com" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+                              <div class="form-group">
+                                <label for="password" class="form-label">Your Password <span>*</span></label>
+                                <input id="password-login" name="password" type="password" placeholder="******" class="form-control">
+                                <span class="form-message"></span>
+                              </div>    
+                              <button class="form-submit">Login</button>
+                        </div>
+                    </form>
+                    <form action="#" method="POST" id="register">
+                         <!-- Register -->
+                         <div class="register-form login-tab" >
+                            <div class="form-group">
+                                <label for="fullname" class="form-label">Username <span>*</span></label>
+                                <input id="fullname" name="fullname" type="text" placeholder="Công Thành" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+                          
+                              <div class="form-group">
+                                <label for="email" class="form-label">Email <span>*</span></label>
+                                <input id="email" name="email" type="text" placeholder="nguyencongthanh@gmail.com" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+                          
+                              <div class="form-group">
+                                <label for="password" class="form-label">Your Password <span>*</span></label>
+                                <input id="password" name="password" type="password" placeholder="******" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+                          
+                              <div class="form-group">
+                                <label for="password_confirmation" class="form-label">Re-enter the password <span>*</span></label>
+                                <input id="password_confirmation" name="password_confirmation" placeholder="******" type="password" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+
+                              <button class="form-submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+
+    <!-- Js -->
+    <!-- Counter up/ Slick slider --> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        // counter 
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000,
+        })
+        // slider
+        $(".footer-slider").slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            responsive: [
+                {
+                    breakpoint: 1023,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 749,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+		    ]
+        });
+    </script>
+    <!--Validate  -->
+    <script src="./assets/js/validator.js"></script>
+    <script>
+        // login
+        Validator({
+            form: "#login",
+            formGroupSelector: ".form-group",
+            error: ".form-message",
+            rules: [
+                Validator.isRequired("#email-login"),
+                Validator.isRequired("#password-login"),
+            ],
+            onsubmit: function() {
+                alert("No action!")
+            }
+        })
+        // register
+        Validator({
+            form: "#register",
+            formGroupSelector: ".form-group",
+            error: ".form-message",
+            rules: [
+                Validator.isRequired("#fullname"),
+                Validator.isRequired("#email"),
+                Validator.isEmail("#email"),
+                Validator.isRequired("#password"),
+                Validator.isMinLength("#password", 8, "Password must be at least 8 characters."),
+                Validator.isRequired("#password_confirmation"),
+                Validator.isConfirmed("#password_confirmation", function(){
+                    return document.querySelector("#register #password").value
+                }, "Two passwords do not match."),
+            ],
+            onsubmit: function() {
+                alert("Sign Up Success! Please login")
+            }
+        })
+    </script>
+    <!-- Main -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
